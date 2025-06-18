@@ -11,6 +11,8 @@ app.get("/", (_req, res) => {
 
 console.log("fix gitflow~");
 
+console.log("v1.1");
+
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
