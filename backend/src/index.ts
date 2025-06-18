@@ -9,8 +9,10 @@ app.get("/", (_req, res) => {
     res.send("Hello from PKM backend!");
 });
 
-console.log("hello~~");
-console.log("fix gitflow~");
+console.log("fix ~~~gitflow~");
+
+console.log("v1.1");
+
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
 });
